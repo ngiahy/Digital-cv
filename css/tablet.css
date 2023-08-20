@@ -1,0 +1,98 @@
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    padding: 0px;
+  }
+  .icon-infomation {
+    padding: 40px 10px 20px 30px;
+    font-size: 24px;
+  }
+  .text-banner {
+    top: 200px;
+  }
+  .circle {
+    display: none;
+  }
+  .imgavatar img {
+    display: none;
+  }
+  .none {
+    width: 50px;
+  }
+  .navbar {
+    padding: 0px 20px 0 20px;
+  }
+  .navbar1 {
+    padding-left: 5px;
+    display: flex;
+  }
+  .navbarli {
+    border-right: 1px rgb(176, 176, 176) ridge;
+    padding: 20px 10px 20px 10px;
+  }
+  .row {
+    padding: 40px 0 0 0;
+  }
+  .color1,
+  .color2 {
+    padding: 40px;
+  }
+  .infoabout,
+  .mt-40 {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 38px;
+  }
+  .container-jobs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  #certificate {
+    padding: 60px 20px 60px 20px;
+  }
+  .imgcertificate {
+    width: 100%;
+  }
+  .certificate1,
+  .certificate2 {
+    display: block;
+  }
+  .certificate1 {
+    padding-right: 20px;
+  }
+  .certificateinfo {
+    grid-gap: 20px;
+  }
+  .certificatecontent {
+    padding-left: 20px;
+  }
+  .containerproject {
+    text-align: center;
+    padding: 10px;
+  }
+  .projectinfo {
+    grid-gap: 15px;
+    grid-template-columns: 32% 32% 32%;
+  }
+  .dateproject {
+    font-size: 15px;
+  }
+  .icon3 {
+    font-size: 20px;
+    padding: 8px 0 8px 4px;
+  }
+  .roleproject {
+    font-size: 13px;
+  }
+  .navbar3 {
+    padding: 20px 20px 20px 80px;
+  }
+  .containersocial {
+    padding: 20px 0 20px 0;
+  }
+}
